@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Modal Profile || GKV</title>
+    <link rel="icon" title="image/png" href="gkvlogo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container1">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="card-container">
+                <div>
+                    <img src="8E1DEAD0-7FE3-4758-A69F-30FA9899EC65.JPG" alt="" class="img1">
+                </div>
+                <div class="user-name">
+                    <h1>Nishkarsh Verma</h1>
+                </div>
+                <div class="designation">
+                    <h3>Student @CodeHelp</h3>
+                </div>
+                <div class="bottom">
+                    <button onclick="openModal()" class="btn-share btn-card">
+                        <i class="fa-solid fa-share"></i>
+                        <div>Share My profile</div>
+                    </button>
+                
+                   <a href="https://www.linkedin.com/in/nishkarsh-verma-980a62216/" class="btn-follow btn-card">Follow Me</a> 
+                    
+                </div>
+            </div>
+            <div class="modal">
+                <div class="modal-header">
+                    <h1>Share My Profile</h1>
+                    <div>
+                        <i onclick="closeModal()" class="fa-solid fa-xmark close"></i>
+                    </div>
+                </div>
+                <div>
+                    <h3>Share via</h3>
+                    <div class="icon-container">
+                        <a href="https://www.linkedin.com/in/nishkarsh-verma-980a62216/" class="icon" id="linkedin">
+                            <img src="linkedin.png" alt="" width="40px">
+                        </a>
+                        <a href="https://www.facebook.com/vermanishkarsh92" class="icon" id="facebook">
+                           <img src="fb.png" alt="" width="40px">
+                        </a>
+                        <a href="https://www.instagram.com/urstrulynishkarsh/" class="icon" id="instagram">
+                            <img src="instagram.png" alt="" width="40px">
+                        </a>
+                        <a href="https://github.com/urstrulynishkarsh" class="icon" id="github">
+                            <img src="github.png" alt="" width="40px">
+                        </a>
+                        <a href="https://twitter.com/NISHKARSHVERM14" class="icon" id="twitter">
+                            <img src="pngtree-twitter-social-media-round-icon-png-image_6315985.png" alt="" width="40px">
+                        </a>
+
+                    </div>
+                </div>
+
+            </div> 
+
+        </div>
+    </div>
+
+    <div class="overlay" onclick="closeModal()"></div>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
